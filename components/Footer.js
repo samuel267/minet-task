@@ -45,8 +45,8 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#EEEDF2] px-11 py-14 w-full rounded ">
-        <div className="grid grid-cols-3">
-          <div className="border-r border-gray-400">
+        <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="md:border-r border-gray-400">
             <h3 className="text-[#C3A22E] font-bold text-xl my-5">
               Quick links
             </h3>
@@ -62,7 +62,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="border-r px-8 border-gray-300">
+          <div className="md:border-r md:px-8 border-gray-300">
             <h3 className="text-[#C3A22E] font-bold text-xl my-5">Benefits</h3>
             <div className=" flex flex-col">
               {benefits.map((link, index) => (
@@ -76,7 +76,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="px-8  ">
+          <div className="md:px-8  ">
             <h3 className="text-[#C3A22E] font-bold text-xl my-5">Contacts</h3>
             <div className="">
               {contacts.map((link, index) => (
@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-8 flex justify-between">
+      <div className="py-8 flex flex-wrap md:flex-nowrap gap-5 justify-center md:justify-between">
         <p className="text-[#C3A22E] font-semibold">
           All rights reserved &copy; Minet group 2023
         </p>

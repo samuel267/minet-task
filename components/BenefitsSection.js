@@ -33,7 +33,7 @@ const BenefitsSection = () => {
       <div className="mb-8 font-semibold text-2xl   ">
         <h3 className="text-[#C3A22E]">Comprehensive benefits</h3>
       </div>
-      <div className="flex justify-around items-center gap-11">
+      <div className="flex justify-around flex-wrap md:flex-nowrap items-center gap-11">
         {benefits.map((benefit, index) => (
           <div key={index} className="w-[388px]">
             <div>

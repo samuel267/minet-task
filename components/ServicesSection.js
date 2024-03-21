@@ -14,7 +14,7 @@ const services = [
 const ServicesSection = () => {
   return (
     <div className="bg-[#EEEDF2] px-3 py-5 w-full rounded">
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
         {services.map((service, index) => (
           <div
             key={index}

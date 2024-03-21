@@ -26,7 +26,7 @@ const Navbar = () => {
             </span>{" "}
           </h3>
         </div>
-        <div className="flex justify-end items-end gap-14   w-full">
+        <div className=" hidden md:flex justify-end items-end gap-14   w-full">
           {nav_links.map((link, index) => (
             <a
               key={index}
@@ -38,7 +38,7 @@ const Navbar = () => {
           ))}
         </div>
       </div>
-      <div>
+      <div className="hidden md:block">
         <img className="w-28  " src="/imgs/clients/TSC-Logo.png" alt="logo" />
       </div>
     </div>

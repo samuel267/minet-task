@@ -13,7 +13,7 @@ const clients = [
 
 const ClientsSection = () => {
   return (
-    <div className="flex gap-8 my-11 justify-around items-center">
+    <div className="flex flex-wrap md:flex-nowrap gap-8 my-11 justify-around items-center">
       {clients.map((client, index) => (
         <div key={index}>
           <img className="w-28      " src={client} alt={client} />

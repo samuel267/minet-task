@@ -3,8 +3,8 @@ import React from "react";
 const FormSection = () => {
   return (
     <div>
-      <div className="rounded rounded-tr-[55px]  bg-[#0B0332]">
-        <form className="px-11 py-8">
+      <div className="rounded md:rounded-tr-[55px]  bg-[#0B0332]">
+        <form className="px-3 md:px-11 py-8">
           <h3 className="text-[#C3A22E] font-semibold text-xl my-2">
             Search a provider near you
           </h3>
