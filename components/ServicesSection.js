@@ -16,7 +16,10 @@ const ServicesSection = () => {
     <div className="bg-[#EEEDF2] px-3 py-5 w-full rounded">
       <div className="grid grid-cols-4 gap-3">
         {services.map((service, index) => (
-          <div className="bg-white p-3 w-44 justify-self-center  rounded ">
+          <div
+            key={index}
+            className="bg-white p-3 w-44 justify-self-center  rounded "
+          >
             <img
               className="p-3 w-20 mx-auto "
               src={service.icon}
