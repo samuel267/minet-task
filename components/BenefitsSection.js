@@ -52,7 +52,7 @@ const BenefitsSection = () => {
               </p>
             </div>
             <div className=" mt-14">
-              <button className="text-[#514978] font-medium">
+              <button className="text-gray-400 font-medium">
                 READ MORE &gt;
               </button>
             </div>

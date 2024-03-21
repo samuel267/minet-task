@@ -48,18 +48,37 @@ const ImageSlider = () => {
             className="w-full h-full bg-cover bg-center"
             style={{ backgroundImage: 'url("/imgs/Asset-2.png")' }}
           >
-            <div className=" inset-0 bg-gradient-to-r h-full w-full  from-black to-transparent opacity-50 flex items-start p-24 justify-between flex-col">
-              <h1 className="text-white text-4xl font-bold">Slide 1</h1>
-              <h1 className="text-white text-4xl font-bold">Slide 1</h1>
+            <div className=" inset-0 bg-gradient-to-r h-full w-full  from-black to-transparent opacity-80 flex items-start p-24 justify-between flex-col">
+              <h1 className="text-white text-2xl w-1/2  opacity-100 font-medium">
+                Protect your{" "}
+                <span className="font-semibold text-[#FDB002]">
+                  {" "}
+                  whole family{" "}
+                </span>
+                with{" "}
+                <span className="font-semibold text-[#FDB002]">
+                  {" "}
+                  Afya Kwa Walimu,
+                </span>{" "}
+                Medical scheme
+              </h1>
+              <h1 className="text-white text-xl opacity-100 font-bold">
+                Risk.Reinsurance.People
+              </h1>
             </div>
           </div>
           <div
             className="w-full h-full bg-cover bg-center"
             style={{ backgroundImage: 'url("/imgs/Asset-1.png")' }}
           >
-            <div className=" inset-0 bg-gradient-to-r h-full w-full from-black to-transparent opacity-50 flex flex-col p-24 items-start justify-between">
-              <h1 className="text-white text-4xl font-bold">Slide 2</h1>
-              <h1 className="text-white text-4xl font-bold">Slide 2</h1>
+            <div className=" inset-0 bg-gradient-to-r h-full w-full from-black to-transparent opacity-80 flex flex-col p-24 items-start justify-between">
+              <h1 className="text-white text-2xl opacity-100 w-1/2 font-semibold">
+                Guard your daily smile with the Wellness from{" "}
+                <span className="text-[#FDB002]"> Afya Kwa Mwalimu </span>
+              </h1>
+              <h1 className="text-white text-xl opacity-100   font-bold">
+                Risk.Reinsurance.People
+              </h1>
             </div>
           </div>
         </div>
